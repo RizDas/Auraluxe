@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import "./parts.css";
 
 const TitleHeader = ({ title, sub }) => {
   return (

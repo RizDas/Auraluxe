@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import "./parts.css";
 
 const GlowCard = ({ card, children, index }) => {
   const cardRefs = useRef([]);

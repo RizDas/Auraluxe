@@ -3,6 +3,7 @@ import TitleHeader from "../parts/TitleHeader";
 import GlowCard from "../parts/GlowCard";
 import { testimonials } from "../parts";
 import styled from "styled-components";
+import "../parts/parts.css";
 
 const Testimonials = () => {
   return (
