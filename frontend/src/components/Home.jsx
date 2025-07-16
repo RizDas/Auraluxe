@@ -49,6 +49,45 @@ const Home = () => {
           </div>
         </div>
       </section>
+       <div id="section-2" className="services-section">
+             <div className="container">
+          <div className="services-header">
+            <h2 className=" ">WE SHOW. YOU CHOOSE.</h2>
+            <p>Explore our wide range of products, for all ages, faces, curated specifically for you.</p>
+          </div>
+          <div className="card-holder">
+<a href="http://localhost:3000/product.html?id=3" alt="Mythrill" target="_blank">
+  <div className="card">
+    <div className="wrapper">
+      <img src="media/glass-1.png" className="cover-image" />
+    </div>
+    <img src="media/ROUND.png" className="title" />
+    <img src="media/glass-1-woman.png" className="character" style="width: 125%;"/>
+  </div>
+</a>
+
+<a href="http://localhost:3000/product.html?id=1" alt="Mythrill" target="_blank">
+  <div className="card">
+    <div className="wrapper">
+      <img src="media/glass-2.png" className="cover-image" />
+    </div>
+    <img src="media/CASUAL.png" className="title" />
+    <img src="media/glass-2-man.png" className="character" />
+  </div>
+</a>
+
+<a href="http://localhost:3000/product.html?id=2" alt="Mythrill" target="_blank">
+  <div className="card">
+    <div className="wrapper">
+      <img src="media/glass-3.png" className="cover-image" />
+    </div>
+    <img src="media/FULL-RIM.png" className="title" />
+    <img src="media/glass-3-man.png" className="character" style="width: 145%;"/>
+  </div>
+</a>
+</div>
+</div>
+</div>
     </div>
   );
 };
