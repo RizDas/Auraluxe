@@ -1,6 +1,5 @@
 #main {
-  margin-top: 20px;
-  padding: 100px;
+  transform:translateY(-90px);
   overflow-x: hidden;
 }
 .spline {
@@ -15,7 +14,7 @@
   height: 120vh;
   width: 100%;
   background-color: gray;
-  transform: translateY(0px);
+  transform: translateY(-70px);
   overflow: hidden;
   color: white;
   font-family: "Poppins", sans-serif;
