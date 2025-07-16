@@ -28,7 +28,7 @@ const Home = () => {
           </h2>
           <p>Immerse yourself into the beats of Auraluxe.</p>
           <div className="buttons">
-            <a href="#section-2" class="btn btn-primary">
+            <a href="#section-2" className="btn btn-primary">
               SHOP NOW
             </a>
             <a href="http://localhost:3000" className="btn btn-secondary">
@@ -49,45 +49,65 @@ const Home = () => {
           </div>
         </div>
       </section>
-       <div id="section-2" className="services-section">
-             <div className="container">
+
+      <div id="section-2" className="services-section">
+        <div className="container">
           <div className="services-header">
-            <h2 className=" ">WE SHOW. YOU CHOOSE.</h2>
-            <p>Explore our wide range of products, for all ages, faces, curated specifically for you.</p>
+            <h2>WE SHOW. YOU CHOOSE.</h2>
+            <p>
+              Explore our wide range of products, for all ages, faces, curated
+              specifically for you.
+            </p>
           </div>
           <div className="card-holder">
-<a href="http://localhost:3000/product.html?id=3" alt="Mythrill" target="_blank">
-  <div className="card">
-    <div className="wrapper">
-      <img src="media/glass-1.png" className="cover-image" />
-    </div>
-    <img src="media/ROUND.png" className="title" />
-    <img src="media/glass-1-woman.png" className="character" style="width: 125%;"/>
-  </div>
-</a>
 
-<a href="http://localhost:3000/product.html?id=1" alt="Mythrill" target="_blank">
-  <div className="card">
-    <div className="wrapper">
-      <img src="media/glass-2.png" className="cover-image" />
-    </div>
-    <img src="media/CASUAL.png" className="title" />
-    <img src="media/glass-2-man.png" className="character" />
-  </div>
-</a>
+            <a href="http://localhost:3000/product.html?id=3" target="_blank" rel="noopener noreferrer">
+              <div className="card">
+                <div className="wrapper">
+                  <img src="/media/glass-1.png" className="cover-image" alt="glass-1" />
+                </div>
+                <img src="/media/ROUND.png" className="title" alt="round" />
+                <img
+                  src="/media/glass-1-woman.png"
+                  className="character"
+                  style={{ width: "125%" }}
+                  alt="glass-1-woman"
+                />
+              </div>
+            </a>
 
-<a href="http://localhost:3000/product.html?id=2" alt="Mythrill" target="_blank">
-  <div className="card">
-    <div className="wrapper">
-      <img src="media/glass-3.png" className="cover-image" />
-    </div>
-    <img src="media/FULL-RIM.png" className="title" />
-    <img src="media/glass-3-man.png" className="character" style="width: 145%;"/>
-  </div>
-</a>
-</div>
-</div>
-</div>
+            <a href="http://localhost:3000/product.html?id=1" target="_blank" rel="noopener noreferrer">
+              <div className="card">
+                <div className="wrapper">
+                  <img src="/media/glass-2.png" className="cover-image" alt="glass-2" />
+                </div>
+                <img src="/media/CASUAL.png" className="title" alt="casual" />
+                <img
+                  src="/media/glass-2-man.png"
+                  className="character"
+                  alt="glass-2-man"
+                />
+              </div>
+            </a>
+
+            <a href="http://localhost:3000/product.html?id=2" target="_blank" rel="noopener noreferrer">
+              <div className="card">
+                <div className="wrapper">
+                  <img src="/media/glass-3.png" className="cover-image" alt="glass-3" />
+                </div>
+                <img src="/media/FULL-RIM.png" className="title" alt="full-rim" />
+                <img
+                  src="/media/glass-3-man.png"
+                  className="character"
+                  style={{ width: "145%" }}
+                  alt="glass-3-man"
+                />
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
